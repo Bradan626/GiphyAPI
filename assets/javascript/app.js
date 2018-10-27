@@ -1,5 +1,5 @@
 // Global variables
-var topics = ["Red Dead Redemtion", "Final Fantasy", "", "Destiny", "Gears of war", "Minecraft", "The Witcher", "Dark Souls", "The Legend of Zelda", "Halo 5", "Resident Evil"];
+var topics = ["Red Dead Redemtion", "Final Fantasy", "Overwatch", "Destiny", "Gears of war", "Minecraft", "The Witcher", "Dark Souls", "The Legend of Zelda", "Halo 5", "Resident Evil"];
 var gifReturn = 10;
 
 $(document).ready(function buildButton() {
