@@ -131,14 +131,13 @@ $(document).ready(function buildButton() {
                         'favorite-status': 'No',
                         'data-parent': idTagFixed
                     });
-                    //var cardDownloadBtn = $("<a href='" + results[i].images.original.mp4 + "'download>Download Gif</a>");
-                    //cardDownloadBtn.addClass("btn btn-secondary btn-sm");
-                    //cardDownloadBtn.attr({'tabindex':'-1', 'role': 'button', 'aria-disabled': 'true'});
+
 
                     // Build masonry card
                     cardBody.append(cardTitle);
                     cardBody.append(favoriteBtn);
                     cardBody.append(cardRating);
+
                     //cardBody.append(cardDownloadBtn);
                     card.append(gifimage);
                     card.append(cardBody);
